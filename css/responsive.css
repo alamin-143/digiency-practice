@@ -1,0 +1,196 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nav-bar ul li a {
+        font-size: 1.6rem;
+    }
+    img.logo {
+        width: 18rem;
+    }
+    #home {
+        padding-bottom: 0rem;
+    }
+    .banner-img {
+        padding: 0rem;
+    }
+    .banner-desc {
+        top: 0rem;
+    }
+    .banner {
+        padding: 10rem 0;
+    }
+    .single-project .project-img {
+        height: 30rem;
+    }
+    .footer-logo img {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+        text-transform: capitalize;
+    }
+
+    img.logo {
+        width: 18rem;
+    }
+    .nav-bar {
+        display: block;
+        height: 100px;
+    }
+    .nav-logo {
+        position: relative;
+        top: 3rem;
+    }
+    #home {
+        padding-bottom: 0rem;
+    }
+    .banner-img {
+        padding: 0rem;
+    }
+    .banner-desc {
+        top: 0rem;
+    }
+    .banner {
+        padding: 10rem 0;
+    }
+    .about h2 {
+        font-size: 3rem;
+        margin: 2rem 0;
+    }
+    .project-filter button {
+        padding: 1rem .9rem;
+    }
+    .testimonial-card {
+        margin-top: 2rem;
+    }
+    .percentage {
+        width: 100%;
+    }
+    .capability-status {
+        padding-bottom: 1rem;
+        margin-top: 5rem;
+    }
+    .single-capability{
+        border-right: none;
+        position: relative;
+        margin-bottom: 4rem;
+        padding-bottom: 3rem;
+    }
+    .single-capability:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+        height: .3rem;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    .blog-card {
+        margin-top: 2rem;
+    }
+    form {
+        padding: 9rem 0;
+    }
+    form input[type="submit"] {
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+        top: 54%;
+    }
+    form input[type="email"] {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+    .footer-logo img {
+        width: 16rem;
+    }
+    .footer-logo .little-description {
+        font-size: 1.2rem;
+    }
+    .footer-item-desc {
+        font-size: 1.5rem;
+    }
+    .social-icon ul li a i {
+        height: 3.5rem;
+        width: 3.5rem;
+        line-height: 3.5rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    img.logo {
+        width: 18rem;
+    }
+    .common-title {
+        font-size: 3rem;
+    }
+    .nav-bar {
+        display: block;
+        height: 100px;
+    }
+    .nav-logo {
+        position: relative;
+        top: 3rem;
+    }
+    .nav-bar ul li a {
+        font-size: 1.6rem;
+    }
+    .banner-desc {
+        position: relative;
+        top: 3rem;
+    }
+    #home {
+        padding-bottom: 6rem;
+    }
+    .banner .little-description {
+        margin: 2rem 0rem;
+    }
+    .project-hover-content {
+        margin-top: 20%;
+    }
+    .single-testimonial {
+        margin-top: 3rem;
+    }
+    .capability-img {
+        padding: 2rem 0rem;
+    }
+    .single-capability{
+        border-right: none;
+        position: relative;
+        margin-bottom: 4rem;
+        padding-bottom: 3rem;
+    }
+    .single-capability:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+        height: .3rem;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .single-blog {
+        margin-top: 2rem;
+    }
+    form input[type="email"] {
+        top: 0;
+    }
+    form input[type="submit"] {
+        top: 6%;
+    }
+    #scrollUp {
+        right: 20px;
+    }
+}
